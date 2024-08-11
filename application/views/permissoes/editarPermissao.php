@@ -251,6 +251,68 @@
                         </div>
                     </div>
                 </div>
+				 <div class="accordion-group widget-box">
+                    <div class="accordion-heading">
+                        <div class="widget-title">
+                            <a data-parent="#collapse-group" href="#collapseGTwo-1" data-toggle="collapse">
+                                <span><i class='bx bx-package icon-cli'></i></span>
+                                <h5 style="padding-left: 28px">Insumos</h5>
+                                <span><i class='bx bx-chevron-right icon-clic'></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collapse accordion-body" id="collapseGTwo-1">
+                        <div class="widget-content">
+                        <table class="table table-bordered">
+                        <tr>
+                            <td colspan="4"></td>
+                        </tr>
+                            <tr>
+                                <td>
+                                    <label>
+                                        <input <?php if (isset($permissoes['vInsumos'])) {
+                                            if ($permissoes['vInsumos'] == '1') {
+                                                echo 'checked';
+                                            }
+                                        }?> name="vInsumos" class="marcar" type="checkbox" value="1" />
+                                            <span class="lbl"> Visualizar Insumos</span>
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <label>
+                                            <input <?php if (isset($permissoes['aInsumos'])) {
+                                                if ($permissoes['aInsumos'] == '1') {
+                                                    echo 'checked';
+                                                }
+                                            }?> name="aInsumos" class="marcar" type="checkbox" value="1" />
+                                            <span class="lbl"> Adicionar Insumo</span>
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <label>
+                                            <input <?php if (isset($permissoes['eInsumos'])) {
+                                                if ($permissoes['eInsumos'] == '1') {
+                                                    echo 'checked';
+                                                }
+                                            }?> name="eInsumos" class="marcar" type="checkbox" value="1" />
+                                            <span class="lbl"> Editar Insumo</span>
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <label>
+                                            <input <?php if (isset($permissoes['dInsumos'])) {
+                                                if ($permissoes['dInsumos'] == '1') {
+                                                    echo 'checked';
+                                                }
+                                            }?> name="dInsumos" class="marcar" type="checkbox" value="1" />
+                                            <span class="lbl"> Excluir Insumos</span>
+                                        </label>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="accordion-group widget-box">
                     <div class="accordion-heading">

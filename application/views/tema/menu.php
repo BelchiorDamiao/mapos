@@ -61,12 +61,12 @@
                         </a>
                     </li>
                 <?php } ?>
-				<?php if ($this->permission->checkPermission($this->session->userdata('permissao'), 'vInsumo')) { ?>
+				<?php if ($this->permission->checkPermission($this->session->userdata('permissao'), 'vInsumos')) { ?>
                     <li class="<?php if (isset($menuInsumos)) {
                         echo 'active';
                     }; ?>">
                         <a class="tip-bottom" title="" href="<?= site_url('insumos') ?>"><i class='bx bx-basket iconX'></i>
-                            <span class="title">Insumos-</span>
+                            <span class="title">Insumos</span>
                             <span class="title-tooltip">Insumos</span>
                         </a>
                     </li>

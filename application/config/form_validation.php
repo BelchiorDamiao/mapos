@@ -107,6 +107,19 @@ $config = [
             'rules' => 'trim',
         ],
     ],
+	 'produtos' => [
+        [
+            'field' => 'nome',
+            'label' => '',
+            'rules' => 'required|trim',
+        ],
+       
+        [
+            'field' => 'preco',
+            'label' => 'Preço',
+            'rules' => 'required|trim',
+        ]
+    ],
     'usuarios' => [
         [
             'field' => 'nome',

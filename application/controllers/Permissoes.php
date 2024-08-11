@@ -65,6 +65,11 @@ class Permissoes extends MY_Controller
                 'eProduto' => $this->input->post('eProduto'),
                 'dProduto' => $this->input->post('dProduto'),
                 'vProduto' => $this->input->post('vProduto'),
+				
+				'aInsumos' => $this->input->post('aInsumos'),
+                'eInsumos' => $this->input->post('eInsumos'),
+                'dInsumos' => $this->input->post('dInsumos'),
+                'vInsumos' => $this->input->post('vInsumos'),
 
                 'aServico' => $this->input->post('aServico'),
                 'eServico' => $this->input->post('eServico'),
@@ -111,6 +116,7 @@ class Permissoes extends MY_Controller
 
                 'rCliente' => $this->input->post('rCliente'),
                 'rProduto' => $this->input->post('rProduto'),
+				'rInsumos' => $this->input->post('rInsumos'),
                 'rServico' => $this->input->post('rServico'),
                 'rOs' => $this->input->post('rOs'),
                 'rVenda' => $this->input->post('rVenda'),
@@ -166,6 +172,11 @@ class Permissoes extends MY_Controller
                 'eProduto' => $this->input->post('eProduto'),
                 'dProduto' => $this->input->post('dProduto'),
                 'vProduto' => $this->input->post('vProduto'),
+				
+				'aInsumos' => $this->input->post('aInsumos'),
+                'eInsumos' => $this->input->post('eInsumos'),
+                'dInsumos' => $this->input->post('dInsumos'),
+                'vInsumos' => $this->input->post('vInsumos'),
 
                 'aServico' => $this->input->post('aServico'),
                 'eServico' => $this->input->post('eServico'),
@@ -212,6 +223,7 @@ class Permissoes extends MY_Controller
 
                 'rCliente' => $this->input->post('rCliente'),
                 'rProduto' => $this->input->post('rProduto'),
+				'rInsumos' => $this->input->post('rInsumos'),
                 'rServico' => $this->input->post('rServico'),
                 'rOs' => $this->input->post('rOs'),
                 'rVenda' => $this->input->post('rVenda'),
